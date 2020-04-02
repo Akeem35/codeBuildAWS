@@ -24,4 +24,4 @@ phases:
       - printf '[{"name":"todo-app2","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
     files:
-      - imageDetail.json
+      - imagedefinitions.json
